@@ -7,6 +7,10 @@ hr {
     border-top: 2px solid #229eaa;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .tooltip.bottom, .tooltip-inner, .tooltip-arrow {
     background-color: #086e77;
 }
@@ -16,6 +20,6 @@ hr {
     height: 1.5em;
 }
 
-.navbar, .card, i, footer {
+.card, i, footer {
     background-color: #229eaa;
 }
