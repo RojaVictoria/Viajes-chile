@@ -2,7 +2,7 @@ $(function () {
     /*Activación de tooltips*/    
     $('[data-toggle="tooltip"]').tooltip()
 
-    /*Cambio de color con doble clic*/    
+    /*Cambio de color a títulos con doble clic*/    
     $("h3").on("dblclick", function(){
         $(this).css({
         "color": "#229eaa",
